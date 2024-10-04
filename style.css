@@ -1,8 +1,6 @@
-html,
-
 @font-face {
     font-family: Vogue;
-    src: url(./font/vogue/Vogue.ttf);
+    src: url(./fonts/);
 }
 
 body {
