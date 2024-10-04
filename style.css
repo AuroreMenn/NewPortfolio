@@ -1,18 +1,78 @@
-header{
-    display: flex;
+html,
+
+@font-face {
+    font-family: Vogue;
+    src: url(./font/vogue/Vogue.ttf);
 }
-.logo{
-    display: flex;
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-.heading{
+
+header {
     display: flex;
+    background-color: #9BCDD2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    align-items: center;
 }
-.flex{
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease-out;
+}
+
+header a:hover {
+    color: #FF8551;
+}
+
+#menu_button_container {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 2% 0;
 }
-.red{
-    width: 400px;
-    height: 400px;
-    background-color: red;
+
+main {
+    background-color: #FFDEDE;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+    font-family: Vogue;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+#project_container {
+    display: grid;
+    grid-template-columns: repeat(1, 2);
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+#project_container img {
+    height: 350px;
+    width: 350px;
+}
+
+.image_container1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 20%;
+}
+
+.image_container2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 20%;
 }
