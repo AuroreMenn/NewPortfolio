@@ -11,7 +11,7 @@ body {
 
 header {
     display: flex;
-    background-color: #9BCDD2;
+    background-color: #850E35;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     align-items: center;
@@ -21,32 +21,35 @@ header a {
     text-decoration: none;
     color: black;
     transition: all 0.25s ease-out;
-}
-
-header a:hover {
-    color: #FF8551;
+    background: hsla(160, 50%, 70%, 0.1);
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin: 0 2%;
+    color: #FFC4C4;
 }
 
 #menu_button_container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     align-items: center;
     padding: 2% 0;
 }
 
 main {
-    background-color: #FFDEDE;
+    background-color: #850E35;
+    padding: 2%;
 }
 
 h1 {
     margin: 0;
     padding-top: 0.3em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     font-family: Vogue;
     text-align: center;
     font-weight: 400;
     font-size: 3em;
+    color: #FFC4C4;
 }
 
 main a {
