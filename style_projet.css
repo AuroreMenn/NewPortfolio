@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Vogue;
+    src: url(./fonts/);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    display: flex;
+    background-color: #9BCDD2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease-out;
+}
+
+header a:hover {
+    color: #FF8551;
+}
+
+#menu_button_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 2% 0;
+}
+
+main {
+    background-color: #FFDEDE;
+    padding: 2%;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+    font-family: Vogue;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    line-height: 150%;
+    margin: 2% 0;
+}
