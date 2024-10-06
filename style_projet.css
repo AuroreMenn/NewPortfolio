@@ -9,6 +9,10 @@ body {
     border: 0;
 }
 
+a:any-link {
+    color: #FFC4C4;
+}
+
 header {
     display: flex;
     background-color: #850E35;
@@ -90,7 +94,6 @@ main {
     padding-bottom: 2em;
     padding-top: 2em;
     width: 250px;
-    align-items: flex-end;
 }
 
 #language_div {
@@ -101,9 +104,8 @@ main {
     border-top: #FFC4C4 1px solid;
     padding-bottom: 2em;
     padding-top: 2em;
-    padding-right: 2em;
     width: 250px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 main img {

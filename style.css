@@ -9,6 +9,10 @@ body {
     border: 0;
 }
 
+a:any-link {
+    color: #FFC4C4;
+}
+
 header {
     display: flex;
     background-color: #850E35;
